@@ -1,4 +1,5 @@
-import { Button, Tooltip } from '@mui/material';
+import { Tooltip } from '@mui/material';
+import { Button } from '@monorepo/ui';
 import React from 'react';
 
 import { FacebookIcon } from '@/app/components';

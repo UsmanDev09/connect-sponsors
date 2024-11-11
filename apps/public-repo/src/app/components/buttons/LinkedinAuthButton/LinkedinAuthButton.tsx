@@ -1,5 +1,5 @@
-import { Button, Tooltip } from '@mui/material';
-
+import { Tooltip } from '@mui/material';
+import { Button } from '@monorepo/ui';
 import { LinkedInIcon } from '@/app/components';
 import styles from '@/app/components/icons/styles';
 

@@ -1,6 +1,6 @@
-import { Box, Button, InputAdornment } from '@mui/material';
+import { Box, InputAdornment } from '@mui/material';
 import { Formik, Form, Field } from 'formik';
-
+import { Button } from '@monorepo/ui';
 import { LetterIcon } from '@/app/components/icons';
 import { PasswordInput, TextInput } from '@/app/components/inputs';
 

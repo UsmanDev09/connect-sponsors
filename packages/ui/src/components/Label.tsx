@@ -1,5 +1,3 @@
-// packages/ui/src/components/Label/index.tsx
-import React from 'react';
 import { Typography, TypographyProps } from '@mui/material';
 
 export interface LabelProps extends Omit<TypographyProps, 'variant'> {
