@@ -43,6 +43,8 @@ const styles = {
   },
   bottomLinks: {
     display: 'flex',
+    justifyContent: 'center',
+    alignItems: 'center',
     gap: 0.5,
   },
 } as const;

@@ -1,4 +1,4 @@
-import { Box, Link, Typography } from '@mui/material';
+import { Box, Button, Link, Typography } from '@mui/material';
 // import { GoogleOAuthProvider } from '@react-oauth/google';
 
 import { SignUpForm, StyledContainer } from '@/app/components';
@@ -15,7 +15,14 @@ const SignUp = () => {
         <StyledContainer sx={styles.root}>
           <Box sx={styles.titleIconWrapper}>
             <Box sx={styles.titleWrapper}>
-              <Typography variant="h2">Get Started</Typography>
+            <Typography variant="h2">This is a public repo</Typography>
+              <Button 
+                sx={{ width:'400px' }}
+                variant="contained" 
+                size="large"
+              >
+                <Link sx={{ color: '#fff' }} href={process.env.PRIVATE_REPO_URL}>Navigate to private repository</Link>
+              </Button>            
             </Box>
           </Box>
           <Box sx={styles.formWrapper}>

@@ -1,20 +1,20 @@
 'use client';
 
 import { Button } from '@monorepo/ui';
-import { Box } from '@mui/material';
+import { Box, Link, Typography } from '@mui/material';
 
 
 export default function Home() {
   return (
-    <Box sx={{ minHeight: '100vh', display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center'}}>
+    <Box sx={{ minHeight: '100vh', display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: '5px'}}>
+      <Typography variant="h2">This is a private repo</Typography>
       <Button 
         sx={{ width:'400px' }}
         variant="contained" 
         size="large"
-        onClick={() => alert('Button clicked!')}
       >
-        This is a private repository
+        <Link sx={{ color: '#fff' }} href={process.env.PUBLIC_REPO_URL}>Navigate to public repository</Link>
       </Button>
-      </Box>
+    </Box>
   );
 }

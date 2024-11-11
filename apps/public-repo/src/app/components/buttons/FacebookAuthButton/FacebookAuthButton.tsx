@@ -9,7 +9,6 @@ const FacebookAuthButton = () => {
      <Tooltip
       title="Facebook"
       placement="top"
-
       arrow
     >
       <Button variant="social">
